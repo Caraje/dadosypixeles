@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link href='/' passHref>
                 <a>
 
-                <Image src='/img_static/logo.webp' alt='Logo de Dados y pixeles' width={110} height={40} objectFit='cover'/>
+                <Image src='/img_static/Logo.webp' alt='Logo de Dados y pixeles' width={110} height={40} objectFit='cover'/>
                 </a>
             </Link>
             {
