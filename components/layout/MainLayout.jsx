@@ -17,6 +17,7 @@ const MainLayout = ({children, title, url, img, description, author}) => {
                 <link rel="icon" href="/img_static/favicon.ico" />
             </Head>
 
+        
 
             <header className='' >
                 <Navbar />

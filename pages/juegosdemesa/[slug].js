@@ -42,7 +42,7 @@ const Post = ({source, frontmatter, content, posts}) => {
                         </div>
                         <div className='articlePage__article__infoGroup'>
                             <div className='articlePage__article__infoGroup__category'>
-                                <h2><Link href={`/${category}`} passHref><a>{category.toUpperCase()}</a></Link></h2>
+                                <h2><Link href={`/${category.replace(/\s+/g, '').toLowerCase()}`} passHref><a>{category.toUpperCase()}</a></Link></h2>
                                 <div className='articlePage__article__infoGroup__category__void'></div>
                             </div>
                             <div className='articlePage__article__infoGroup__info'>                                  

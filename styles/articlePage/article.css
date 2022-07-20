@@ -49,12 +49,21 @@
     background: linear-gradient(0deg, rgb(0, 0, 0, 0.7) 0%, rgba(0,212,255,0) 50%);
     
 }
+
+
 .articlePage__article__imgGroup__title{
     position: absolute;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: var(--whiteWeb);
     bottom: -0.9rem;
     padding: 1rem;
+}
+
+@media (min-width: 768px){
+    .articlePage__article__imgGroup__title {
+        font-size: 2rem;
+
+    }
 }
 
 
@@ -96,9 +105,17 @@
 
 .articlePage__article__infoGroup__info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: right;
-    gap: 2rem;
+    gap: 0rem;
     margin: 0 2rem;
+    
+}
+
+@media (min-width: 768px) {
+    .articlePage__article__infoGroup__info {
+        gap: 2rem;
+    }
 
 }
 
@@ -126,7 +143,7 @@
 .articlePage__article__text {
     margin-top: 3rem;
     max-width: 74ch;
-    padding-left: 2.5rem;
+    padding: 0 2.5rem;
     color: var(--blueWeb);
     font-size: 1rem;
     
