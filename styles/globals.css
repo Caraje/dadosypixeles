@@ -1,16 +1,63 @@
+@import './customProperties.css';
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--primaryFont);
+  background-color: var(--blueWeb);
+
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  line-height: 0;
 }
 
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+  line-height: 0;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0.67em 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hidden{
+    display: block;
+  }
+}
+
+.show {
+  display: block;
+}
+@media (min-width: 768px) {
+  .show{
+    display: none;
+  }
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  color: var(--blueWeb);
+  font-size: 1.5rem;
+}
+
+

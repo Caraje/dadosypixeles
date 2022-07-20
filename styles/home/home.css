@@ -1,0 +1,228 @@
+@import '../customProperties.css';
+
+.home__page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blueWeb);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .home__page {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.home__page__news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 90%;
+    padding: 1rem;
+    background-color: var(--beigeWeb);
+}
+
+@media (min-width: 768px) {
+    .home__page__news {
+        width: 75%;
+    }
+}
+
+
+
+.home__page__news__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home__page__news__content__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blueWeb);
+    margin-bottom: 1rem;
+}
+.home__page__news__content__void {
+    background-color: var(--orangeWeb);
+    flex-grow: 1;
+    margin-top: .5rem ;
+    height: 0.5rem
+}
+
+
+.home__page__news__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--blueWeb);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px  rgba(0,0,0,0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .home__page__news__card{
+        flex-direction: row;
+        /* align-items: flex-start; */
+
+    }
+}
+
+.home__page__news__card__img {
+    width: 100%;
+    /* height: 100%; */
+    /* object-fit: cover; */
+}
+
+.home__page__news__card:hover {
+    cursor: pointer;
+    background-color: var(--lightBlueWeb);
+    box-shadow: 0 0 15px rgb(1, 71, 109, 0.7);
+    filter: brightness(1.2);
+}
+
+
+.home__page__news__card__img:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+
+.prueba {
+    max-width: 100rem;
+    /* max-height: 15rem; */
+    line-height: 0;
+}
+
+.home__page__news__card__info {
+    width: 80%;
+    padding: 1rem 0 2rem 0;
+    color: var(--whiteWeb);
+}
+
+.home__page__news__card__info h3 {
+    margin: 0;
+    color: var(--orangeWeb);
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+    line-height: 0;
+}
+
+
+.home__page__news__card__info h2 {
+    max-width: 28ch;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--whiteWeb);
+    line-height: 2rem;
+    margin: 0.8rem 0
+}
+
+
+.home__page__news__card__info h4 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+    
+}
+
+.home__page__news__card__info h4 span {
+    margin: 0;
+    color: var(--orangeWeb);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+
+
+.home__page__highlight {
+    width: 90%;
+    background-color: var(--beigeWeb);
+    padding: 1rem;
+}
+
+@media( min-width: 768px) {
+    .home__page__highlight {
+        width: 25%;
+    }
+}
+
+
+
+
+.home__page__highlight__content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.home__page__highlight__content__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--blueWeb);
+    margin-bottom: 1rem;
+}
+.home__page__highlight__content__void {
+    background-color: var(--orangeWeb);
+    flex-grow: 1;
+    margin-top: 1rem ;
+    height: 0.6rem
+}
+
+
+.home__page__highlight__social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home__page__highlight__social a {
+    color: var(--blueWeb);
+    font-size: 1.8rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.home__page__highlight__social a:hover {
+    text-shadow: 0 0 10px rgb(247, 127, 0, 0.8);
+    color: var(--orangeWeb);
+}
+
+
+.home__page__highlight__content__iframe__podcast {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+}
+
+
+
+footer{
+    background-color: var(--yellowWeb);
+    width: 100%;
+    margin-top: 2rem;
+    border-top: 5px solid var(--orangeWeb)
+    
+}
+.footerpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+.footer_item {
+    list-style: none;
+    color: var(--blueWeb); 
+    font-size: 1rem;
+    font-weight: 600;
+}
