@@ -9,13 +9,12 @@ const CardArticle = ({post}) => {
         <Link className='home__card' href={`/${category.replace(/\s+/g, '').toLowerCase()}/${url}`} passHref>
             <article className='home__page__news__card'>
                 <Link href={`/${category.replace(/\s+/g, '').toLowerCase()}/${url}`} passHref>
-                    <div className=''>
+                    <div className='home__page__news__card__content'>
                         <Image 
                             src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
                             alt={alt} 
-                            width={700} 
-                            height={350} 
                             objectFit='cover'
+                            layout="fill"
                             className='home__page__news__card__img'
                         />
                     </div>
