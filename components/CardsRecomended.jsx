@@ -28,7 +28,7 @@ const CardsRecomended = ({post}) => {
                         {title}
                     </h2>
                     <h4 className='cardRecomended__infoGroup__author'>
-                        Escrito por: <span>{author}</span> 
+                        Por: <span>{author}</span> 
                     </h4>
                 </div>
             </article>
