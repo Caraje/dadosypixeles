@@ -61,3 +61,12 @@ h1 {
 }
 
 
+.contentImg{
+  position: relative;
+  width: 40rem;
+  height: 25rem;
+  margin: 3rem auto ;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
