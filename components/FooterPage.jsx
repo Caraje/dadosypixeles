@@ -20,7 +20,7 @@ const FooterPage = () => {
                 </ul>
             </nav>
 
-            <div className='home__page__highlight__social '>                
+            <div className='home__page__highlight__social'>                
             {
                 listSocialNetwork.map((net, id ) => ( 
                     <MenuSocialNetwork key={id} name={net.name} url={net.url} icon={net.icon} />

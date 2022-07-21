@@ -63,7 +63,7 @@ h1 {
 
 .contentImg{
   position: relative;
-  width: 40rem;
+  max-width: 100%;
   height: 25rem;
   margin: 3rem auto ;
   border-radius: 5px;

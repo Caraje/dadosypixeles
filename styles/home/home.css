@@ -212,12 +212,20 @@ footer{
     border-top: 5px solid var(--orangeWeb)
     
 }
+
 .footerpage {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: .5rem;
 }
+
+@media (min-width: 600px){
+    .footerpage {
+        justify-content: space-between;
+    }
+}
+
 
 .footer_item {
     list-style: none;
