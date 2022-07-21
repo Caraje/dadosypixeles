@@ -46,7 +46,7 @@ const Post = ({source, frontmatter, content, posts}) => {
                                 <div className='articlePage__article__infoGroup__category__void'></div>
                             </div>
                             <div className='articlePage__article__infoGroup__info'>                                  
-                                <h3>Escrito por: <Link href={`/author/${author}`}><a>{author}</a></Link></h3>
+                                <h3>Escrito por: <span>{author}</span></h3>
                                 <h3>Fecha: <span>{date}</span></h3>
                             </div>
                             <div className='articlePage__article__text'>

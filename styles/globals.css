@@ -39,7 +39,7 @@ h1 {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .hidden{
     display: block;
   }
@@ -48,7 +48,7 @@ h1 {
 .show {
   display: block;
 }
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .show{
     display: none;
   }

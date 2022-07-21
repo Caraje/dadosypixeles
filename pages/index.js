@@ -10,7 +10,7 @@ import { getAllFilesMetadata } from '../lib/mdx'
 const SEO = {
   title: 'Bienvenidos a Dados&pixeles',
   description: 'Bienvenidos a Dados y pixeles, una web dedicada a hablar de series, peliculas, videojuegos o juegos de mesa, un lugar donde compartir nuestros hobbies y nuestras aficiones',
-  img:'/img_static/Logo_vertical.webp',
+  img:'https://res.cloudinary.com/www-dados-pixeles-com/image/upload/v1658397180/Logo_img_kcetac.webp',
   url: 'https://www.dados&pixeles.com',
   author: '@DadosyPixeles'
 }
