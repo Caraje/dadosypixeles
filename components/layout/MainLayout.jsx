@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import FooterPage from '../FooterPage'
 import Navbar from './Navbar'
+import FooterPage from './FooterPage'
 
 const MainLayout = ({children, title, url, img, description, author}) => {
     return (
@@ -15,18 +15,16 @@ const MainLayout = ({children, title, url, img, description, author}) => {
                 <meta name="twitter:card" content="summary" />
                 <meta name='twitter:creator' content={author} />
                 <link rel="icon" href="/img_static/favicon.ico" />
-            </Head>
-
-        
+            </Head>     
 
             <header className='' >
                 <Navbar />
 
             </header>
+            <main>
                 {children}
-            <footer >
-                <FooterPage />
-            </footer>
+            </main>
+
         </>
 )
 }

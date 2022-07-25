@@ -21,7 +21,7 @@ const CardArticle = ({post}) => {
                 </Link>
 
                 <div className='home__page__news__card__info'>
-                    <h3>{category}</h3>
+                    <h3>{category.toUpperCase()}</h3>
                     <h2>{title}</h2>
                     <h4>Escrito por: <span>{author}</span> </h4>
                 </div>

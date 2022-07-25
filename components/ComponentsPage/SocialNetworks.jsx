@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-import { listSocialNetwork } from '../utils/SocialNetworksList'
+import { listSocialNetwork } from '../../utils/SocialNetworksList'
+
 
 const SocialNetworks = () => {
     return (    

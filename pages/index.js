@@ -1,11 +1,9 @@
-import CardArticle from '../components/CardArticle'
-import LastPodcast from '../components/LastPodcast'
-import LastVideo from '../components/LastVideo'
-import MainLayout from '../components/layout/MainLayout'
-import SocialNetworks from '../components/SocialNetworks'
-import { getAllFilesMetadata } from '../lib/mdx'
-
-
+import LastPodcast from "../components/ComponentsMultimedia/LastPodcast"
+import LastVideo from "../components/ComponentsMultimedia/LastVideo"
+import CardArticle from "../components/ComponentsPage/CardArticle"
+import SocialNetworks from "../components/ComponentsPage/SocialNetworks"
+import MainLayout from "../components/layout/MainLayout"
+import { getAllFilesMetadata } from "../lib/mdx"
 
 const SEO = {
   title: 'Bienvenidos a Dados&pixeles',
@@ -15,30 +13,28 @@ const SEO = {
   author: '@DadosyPixeles'
 }
 export default function Home({posts}) {
-
-
   const newPost = posts.sort(((a, b ) => b.id - a.id))
-
-  
 
   return (
   <MainLayout title={SEO.title} url={SEO.url} img={SEO.img} description={SEO.description} author={SEO.author} >
     <div className='container home__page'>
+      
       <main className='home__page__news'>
         <div className='home__page__news__content'>
           <h1 className='home__page__news__content__title'>Últimos Articulos</h1>
           <div className='home__page__news__content__void'></div>
         </div>
-
         {
           newPost.map( (post, id) => (<CardArticle key={id} post={post}/>))
         }      
       </main>
+
       <section className='home__page__highlight'>
         <SocialNetworks />
         <LastPodcast episode='5IOV698OK2Ec2qJHiSitIl'/>
         <LastVideo videoID='6GsxblACGaE' />
       </section>
+
     </div>
   </MainLayout>
   )
@@ -46,7 +42,6 @@ export default function Home({posts}) {
 
 export async function getStaticProps() {
   const posts = await getAllFilesMetadata()
-  console.log(posts)
   return {
     props: {posts}
   }

@@ -53,3 +53,10 @@
     margin-top: .5rem ;
     height: 0.5rem
 }
+
+
+.category__page__empty {
+    font-size: 1.5rem;
+    color: var(--blueWeb);
+    text-align: center;
+}

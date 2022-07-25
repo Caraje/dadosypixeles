@@ -206,9 +206,11 @@
 
 
 footer{
+
+    bottom: 0;
     background-color: var(--yellowWeb);
     width: 100%;
-    margin-top: 2rem;
+    margin-top: auto;
     border-top: 5px solid var(--orangeWeb)
     
 }
@@ -226,6 +228,17 @@ footer{
     }
 }
 
+
+.footer__text__title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--blueWeb);
+    margin-bottom: 1rem;
+}
+ .footer__text__link {
+    font-weight: 600;
+    color: var(--redWeb);
+ }
 
 .footer_item {
     list-style: none;
