@@ -46,7 +46,7 @@ h1 {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .hidden{
     display: block;
   }
@@ -55,7 +55,7 @@ h1 {
 .show {
   display: block;
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .show{
     display: none;
   }
@@ -71,11 +71,17 @@ h1 {
 .contentImg{
   position: relative;
   max-width: 100%;
-  height: 25rem;
+  height: 15rem;
   margin: 3rem auto ;
   border-radius: 5px;
   overflow: hidden;
   
+}
+
+@media (min-width: 800px) {
+  .contentImg{
+    height: 25rem;
+  }
 }
 
 
