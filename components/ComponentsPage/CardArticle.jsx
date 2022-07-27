@@ -14,7 +14,10 @@ const CardArticle = ({post}) => {
                             src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
                             alt={alt} 
                             objectFit='cover'
-                            layout="fill"
+                            objectPosition='center'
+                            layout="intrinsic"
+                            width={650}
+                            height={400}
                             className='home__page__news__card__img'
                         />
                     </div>
