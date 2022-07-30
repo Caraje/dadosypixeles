@@ -7,7 +7,7 @@ const SocialNetworks = () => {
     return (    
         <>
             <div className='home__page__highlight__content'>
-                <h3 className='home__page__highlight__content__title '>Siguenos:</h3>
+                <h3 className='home__page__highlight__content__title '>Síguenos:</h3>
                 <div className='home__page__highlight__content__void'></div>
             </div>
             <div className='home__page__highlight__social'>

@@ -21,7 +21,7 @@ export default function Home({posts}) {
       
       <main className='home__page__news'>
         <div className='home__page__news__content'>
-          <h1 className='home__page__news__content__title'>Últimos Articulos</h1>
+          <h1 className='home__page__news__content__title'>Últimos Artículos</h1>
           <div className='home__page__news__content__void'></div>
         </div>
         {
@@ -31,8 +31,8 @@ export default function Home({posts}) {
 
       <section className='home__page__highlight'>
         <SocialNetworks />
-        <LastPodcast episode='5IOV698OK2Ec2qJHiSitIl'/>
-        <LastVideo videoID='6GsxblACGaE' />
+        <LastPodcast episode='1Eu9C7nRCSEBa9ixmis2do'/>
+        <LastVideo videoID='9U7xjW0Fqhg' />
       </section>
 
     </div>
