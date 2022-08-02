@@ -9,14 +9,15 @@ const SEO = {
   description: 'Bienvenidos a Dados y pixeles, una web dedicada a hablar de series, peliculas, videojuegos o juegos de mesa, un lugar donde compartir nuestros hobbies y nuestras aficiones',
   img:'/img_static/Logo_vertical.webp',
   url: 'https://www.dados&pixeles.com',
-  author: '@DadosyPixeles'
+  author: '@DadosyPixeles',
+  tags: 'Dados y pixeles, videojuegos, juegos de mesa, series, television, cine, peliculas, friki'
 }
 
 const PodcastPage = ({posts}) => {
   const categoryPosts = posts.filter( post  => post.category === 'podcast')
   const category = 'Podcast'
   return (
-    <MainLayout title={SEO.title} url={SEO.url} img={SEO.img} description={SEO.description} author={SEO.author} >
+    <MainLayout title={SEO.title} url={SEO.url} img={SEO.img} description={SEO.description} author={SEO.author} tags={SEO.tags} >
       <div className='content__cards'>
         <IndexComponent posts={categoryPosts} category={category}/>
       </div>
