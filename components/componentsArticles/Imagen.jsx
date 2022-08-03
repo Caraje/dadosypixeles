@@ -7,7 +7,7 @@ const Imagen = ({img, alt}) => {
       <Image 
         src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
         alt={alt} 
-        objectFit='cover'
+        objectFit='contain'
         objectPosition='center'
         layout="intrinsic"
         width={800}

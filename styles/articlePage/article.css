@@ -156,14 +156,14 @@
 
 
 .articlePage__article__text h2 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--blueWeb);
     margin-bottom: 1rem;
 }
 
 .articlePage__article__text h3 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--blueWeb);
     margin-bottom: 1rem;
@@ -181,7 +181,7 @@
 
 .articlePage__article__text li {
     margin-bottom: 0.5rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .articlePage__article__text a {
