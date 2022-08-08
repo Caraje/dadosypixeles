@@ -75,14 +75,14 @@
 
 .articlePage__article__infoGroup__category {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
     margin: 0 2rem;
 }
 
 .articlePage__article__infoGroup__category h2{
     font-size: 2rem;
-    line-height: 0;
+    /* line-height: 0; */
     font-weight: 700;
     color: var(--redWeb);
     margin-bottom: 1rem;
@@ -99,7 +99,7 @@
 .articlePage__article__infoGroup__category__void {
     background-color: var(--orangeWeb);
     flex-grow: 1;
-    margin-bottom: .4rem ;
+    margin-bottom: -1.5rem ;
     height: 0.5rem
 }
 
