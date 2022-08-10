@@ -3,7 +3,7 @@ import Video from "./Video";
 import Imagen from "./Imagen";
 
 export default {
-    Podcast,
-    Video, 
-    Imagen
+  Podcast,
+  Video,
+  Imagen,
 };

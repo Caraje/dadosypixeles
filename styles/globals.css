@@ -1,5 +1,4 @@
-@import './customProperties.css';
-
+@import "./customProperties.css";
 
 html,
 body {
@@ -10,12 +9,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
- main {
+main {
   margin-bottom: 2rem;
- }
-
+}
 
 a {
   color: inherit;
@@ -47,7 +44,7 @@ h1 {
 }
 
 @media (min-width: 800px) {
-  .hidden{
+  .hidden {
     display: block;
   }
 }
@@ -56,7 +53,7 @@ h1 {
   display: block;
 }
 @media (min-width: 800px) {
-  .show{
+  .show {
     display: none;
   }
 }
@@ -67,11 +64,9 @@ h1 {
   font-size: 1.5rem;
 }
 
-
-.contentImg{
+.contentImg {
   border-radius: 5px;
-  overflow: hidden;  
+  overflow: hidden;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-

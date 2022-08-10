@@ -1,28 +1,27 @@
 :root {
-    /*
+  /*
     -----------------------------------------------------------------------
                                 Colores
     -----------------------------------------------------------------------
     */
 
-    --blueWeb: #003049;
-    --lightBlueWeb: #01476d;
-    --redWeb: #D62828;
-    --orangeWeb: #f77f00;
-    --yellowWeb: #fcbf49;
-    --beigeWeb: #eae2b7;
+  --blueWeb: #003049;
+  --lightBlueWeb: #01476d;
+  --redWeb: #d62828;
+  --orangeWeb: #f77f00;
+  --yellowWeb: #fcbf49;
+  --beigeWeb: #eae2b7;
 
+  --whiteWeb: #f6f6f6;
+  --blanco: #ffffff;
 
-    --whiteWeb: #F6F6F6;       
-    --blanco: #ffffff;
+  --BlackWeb: #333;
+  --negro: #222;
 
-    --BlackWeb: #333;       
-    --negro: #222;
-
-    /*
+  /*
     -----------------------------------------------------------------------
                             Fuentes
     -----------------------------------------------------------------------
   */
-    --primaryFont: 'Montserrat', sans-serif;
+  --primaryFont: "Montserrat", sans-serif;
 }

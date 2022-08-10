@@ -1,54 +1,49 @@
-@import '../customProperties.css';
+@import "../customProperties.css";
 
-
-
-.prueba{
-    margin: 1rem;
+.prueba {
+  margin: 1rem;
 }
 .cardRecomended {
-    display: flex;
-    /* align-items: center; */
-    flex-direction: column;
-    background-color: var(--blueWeb);
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 0 15px  rgba(0,0,0,0.5);
-    transition: all 0.3s ease-in-out;
-
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  background-color: var(--blueWeb);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
 }
 
-
 .cardRecomended:hover {
-    cursor: pointer;
-    background-color: var(--lightBlueWeb);
-    box-shadow: 0 0 15px rgb(1, 71, 109, 0.7);
-    filter: brightness(1.2);
+  cursor: pointer;
+  background-color: var(--lightBlueWeb);
+  box-shadow: 0 0 15px rgb(1, 71, 109, 0.7);
+  filter: brightness(1.2);
 }
 
 .cardRecomended__infoGroup {
-    width: 80%;
-    margin: 1rem;
-    color: var(--whiteWeb);
+  width: 80%;
+  margin: 1rem;
+  color: var(--whiteWeb);
 }
 
-
 .cardRecomended__infoGroup__category {
-    font-size: 1rem;
-    color: var(--orangeWeb);
+  font-size: 1rem;
+  color: var(--orangeWeb);
 }
 
 .cardRecomended__infoGroup__title {
-    font-size: 1.3rem;
-    line-height: 1.2
+  font-size: 1.3rem;
+  line-height: 1.2;
 }
 
 .cardRecomended__infoGroup__author {
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: var(--whiteWeb);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--whiteWeb);
 }
 
 .cardRecomended__infoGroup__author span {
-    color: var(--orangeWeb);
-    font-weight: 600;
+  color: var(--orangeWeb);
+  font-weight: 600;
 }

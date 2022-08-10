@@ -1,74 +1,68 @@
-@import '../customProperties.css';
-
-
+@import "../customProperties.css";
 
 header {
-    background-color: var(--yellowWeb);
-    width: 100%;
-    height: 4rem;
-    border-bottom: 5px solid var(--orangeWeb);
+  background-color: var(--yellowWeb);
+  width: 100%;
+  height: 4rem;
+  border-bottom: 5px solid var(--orangeWeb);
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:  auto;
-    max-width: 1200px;
-    height: 4rem;   
-    padding: 1rem;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  height: 4rem;
+  padding: 1rem;
 }
-
 
 .menu__group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding: 0
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
 }
 
-
 .menu_item {
-    list-style: none;
-    color: var(--blueWeb); 
-    font-size: 1.5rem;
-    font-weight: 600;
+  list-style: none;
+  color: var(--blueWeb);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .menu_item:hover {
-    text-shadow: 0 0 10px rgb(247, 127, 0, 0.8);
-    color: var(--orangeWeb);
+  text-shadow: 0 0 10px rgb(247, 127, 0, 0.8);
+  color: var(--orangeWeb);
 }
 
 .active {
-    text-shadow: 0 0 10px rgb(247, 127, 0, 0.8);
-    color: var(--orangeWeb);
+  text-shadow: 0 0 10px rgb(247, 127, 0, 0.8);
+  color: var(--orangeWeb);
 }
 
-
 .menu__hidden {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background-color: var(--yellowWeb);
-    top: 0;
-    left: 0;
-    z-index: 10;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellowWeb);
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .menu__hiden__group {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    align-items: center;
-    gap: 2rem;
-    padding: 0;
-    margin-top: 4rem;    
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin-top: 4rem;
 }
 
 .btn-hidden {
-    /* display: block; */
-    width: 100%;
+  /* display: block; */
+  width: 100%;
 }
