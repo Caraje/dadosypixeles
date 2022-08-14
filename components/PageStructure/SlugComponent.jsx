@@ -11,33 +11,33 @@ import { MDXRemote } from "next-mdx-remote";
 const SlugComponent = ({ frontmatter, source, posts }) => {
   const { title, date, author, category, img, alt } = frontmatter;
   return (
-    <div className="container articlePage">
-      <main className="articlePage__article">
-        <div className="articlePage__article__imgGroup">
+    <div className='container articlePage'>
+      <main className='articlePage__article'>
+        <div className='articlePage__article__imgGroup'>
           <Image
             src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
             alt={alt}
             width={1000}
             height={450}
-            objectFit="cover"
-            className="articlePage__article__imgGroup__img"
+            objectFit='cover'
+            className='articlePage__article__imgGroup__img'
           />
-          <div className="articlePage__article__imgGroup__void"></div>
-          <h1 className="articlePage__article__imgGroup__title">{title}</h1>
+          <div className='articlePage__article__imgGroup__void'></div>
+          <h1 className='articlePage__article__imgGroup__title'>{title}</h1>
         </div>
-        <div className="articlePage__article__infoGroup">
-          <div className="articlePage__article__infoGroup__category">
+        <div className='articlePage__article__infoGroup'>
+          <div className='articlePage__article__infoGroup__category'>
             <h2>
               <Link
-                href={`/${category.replace(/\s+/g, "").toLowerCase()}`}
+                href={`/${category.replace(/\s+/g, '').toLowerCase()}`}
                 passHref
               >
                 <a>{category.toUpperCase()}</a>
               </Link>
             </h2>
-            <div className="articlePage__article__infoGroup__category__void"></div>
+            <div className='articlePage__article__infoGroup__category__void'></div>
           </div>
-          <div className="articlePage__article__infoGroup__info">
+          <div className='articlePage__article__infoGroup__info'>
             <h3>
               Escrito por: <span>{author}</span>
             </h3>
@@ -45,19 +45,19 @@ const SlugComponent = ({ frontmatter, source, posts }) => {
               Fecha: <span>{date}</span>
             </h3>
           </div>
-          <div className="articlePage__article__text">
+          <div className='articlePage__article__text'>
             <MDXRemote {...source} components={MDXComponents} />
           </div>
         </div>
       </main>
-      <section className="home__page__highlight">
+      <section className='home__page__highlight'>
         <SocialNetworks />
         <RecomendedCardsContainer posts={posts} />
-        <LastPodcast episode="1xArpdjnZozndQoC5TRklE" />
-        <LastVideo videoID="jKN_6oiirjU" />
+        <LastPodcast episode='0TCHCDBysQnUKvq84iG4Sm' />
+        <LastVideo videoID='mCh-fOkElpg' />
       </section>
     </div>
-  );
+  )
 };
 
 export default SlugComponent;
