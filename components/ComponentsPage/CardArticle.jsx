@@ -6,39 +6,40 @@ const CardArticle = ({ post }) => {
   const { title, date, url, article, author, tags, category, img, alt } = post;
   return (
     <Link
-      className="home__card"
-      href={`/${category.replace(/\s+/g, "").toLowerCase()}/${url}`}
+      className='home__card'
+      href={`/${category.replace(/\s+/g, '').toLowerCase()}/${url}`}
       passHref
     >
-      <article className="home__page__news__card">
-        <Link
-          href={`/${category.replace(/\s+/g, "").toLowerCase()}/${url}`}
-          passHref
-        >
-          <div className="home__page__news__card__content">
-            <Image
-              src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
-              alt={alt}
-              objectFit="cover"
-              objectPosition="center"
-              layout="intrinsic"
-              width={650}
-              height={400}
-              className="home__page__news__card__img"
-            />
-          </div>
-        </Link>
+      <a>
+        <article className='home__page__news__card'>
+          <Link
+            href={`/${category.replace(/\s+/g, '').toLowerCase()}/${url}`}
+            passHref
+          >
+            <div className='home__page__news__card__content'>
+              <Image
+                src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
+                alt={alt}
+                objectFit='cover'
+                layout='responsive'
+                width={400}
+                height={250}
+                className='home__page__news__card__img'
+              />
+            </div>
+          </Link>
 
-        <div className="home__page__news__card__info">
-          <h3>{category.toUpperCase()}</h3>
-          <h2>{title}</h2>
-          <h4>
-            Escrito por: <span>{author}</span>{" "}
-          </h4>
-        </div>
-      </article>
+          <div className='home__page__news__card__info'>
+            <h3>{category.toUpperCase()}</h3>
+            <h2>{title}</h2>
+            <h4>
+              Escrito por: <span>{author}</span>{' '}
+            </h4>
+          </div>
+        </article>
+      </a>
     </Link>
-  );
+  )
 };
 
 export default CardArticle;

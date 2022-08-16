@@ -17,9 +17,10 @@ const SlugComponent = ({ frontmatter, source, posts }) => {
           <Image
             src={`https://res.cloudinary.com/www-dados-pixeles-com/image/upload/${img}`}
             alt={alt}
-            width={1000}
-            height={450}
+            width={900}
+            height={400}
             objectFit='cover'
+            layout='responsive'
             className='articlePage__article__imgGroup__img'
           />
           <div className='articlePage__article__imgGroup__void'></div>

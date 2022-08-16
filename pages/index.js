@@ -35,14 +35,13 @@ export default function Home({ posts }) {
             </h1>
             <div className='home__page__news__content__void'></div>
           </div>
-          {newPost.map((post, id) => (
+          {newPost.slice(0, 10).map((post, id) => (
             <CardArticle key={id} post={post} />
           ))}
         </main>
 
         <section className='home__page__highlight'>
           <SocialNetworks />
-
           <LastPodcast episode='0TCHCDBysQnUKvq84iG4Sm' />
           <LastVideo videoID='mCh-fOkElpg' />
         </section>

@@ -56,7 +56,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   background-color: var(--blueWeb);
   border-radius: 15px;
   overflow: hidden;
@@ -96,7 +96,7 @@
 
 .home__page__news__card__info {
   width: 80%;
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 1rem 2rem 2rem 1rem;
   color: var(--whiteWeb);
 }
 
@@ -105,7 +105,7 @@
   color: var(--orangeWeb);
   font-size: 1.3rem;
   font-weight: 700;
-  padding-bottom: 0;
+  padding-bottom: 1rem;
   /* line-height: 0; */
 }
 
@@ -114,7 +114,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--whiteWeb);
-  line-height: 2rem;
+  line-height: 1.1;
   margin: 0rem 0 0.8rem 0;
 }
 
