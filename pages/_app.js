@@ -27,13 +27,13 @@ function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <CookieConsent
-        location="bottom"
-        buttonText="Sí, utilizar cookies."
+        location='bottom'
+        buttonText='Sí, utilizar cookies.'
         onAccept={() => location.reload()}
-        cookieName="CookieConsent"
+        cookieName='CookieConsent'
         expires={150}
-        enableDeclineButton="true"
-        declineButtonText="No, no utilizar cookies"
+        enableDeclineButton='true'
+        declineButtonText='No, no utilizar cookies'
       >
         Esta página web utiliza cookies para analizar de forma anónima y
         estadística el uso que haces de la web, mejorar los contenidos y tu
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
         {/* <a href="#enlace_hacia_politica_de_cookies">Política de Cookies</a>. */}
       </CookieConsent>
     </>
-  );
+  )
 }
 
 export default MyApp;

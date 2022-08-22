@@ -81,39 +81,6 @@ class MyDocument extends Document {
             }}
           />
 
-          {/* ____ */}
-
-          {/* <!-- Default Statcounter code for Dados y Pixeles https://www.dadosypixeles.es/
---> */}
-          <script type='text/javascript'>
-            var sc_project=12786839; var sc_invisible=1; var
-            sc_security="b51cb029";
-          </script>
-          <script
-            type='text/javascript'
-            src='https://www.statcounter.com/counter/counter.js'
-            async
-          ></script>
-          <noscript>
-            <div class='statcounter'>
-              <a
-                title='Web Analytics'
-                href='https://statcounter.com/'
-                target='_blank'
-              >
-                <img
-                  class='statcounter'
-                  src='https://c.statcounter.com/12786839/0/b51cb029/1/'
-                  alt='Web Analytics'
-                  referrerPolicy='no-referrer-when-downgrade'
-                />
-              </a>
-            </div>
-          </noscript>
-          {/* <!-- End of Statcounter Code --> */}
-          <a href='https://statcounter.com/p12786839/?guest=1'>View My Stats</a>
-
-          {/* ____ */}
         </Head>
         <body>
           <Main />
