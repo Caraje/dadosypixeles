@@ -54,8 +54,8 @@ const SlugComponent = ({ frontmatter, source, posts }) => {
       <section className='home__page__highlight'>
         <SocialNetworks />
         <RecomendedCardsContainer posts={posts} />
-        <LastPodcast episode='0TCHCDBysQnUKvq84iG4Sm' />
-        <LastVideo videoID='mCh-fOkElpg' />
+        <LastPodcast episode='6HBYOk92T8MW8qIYu6wiIM' />
+        <LastVideo videoID='4YUMDXVTuho' />
       </section>
     </div>
   )
