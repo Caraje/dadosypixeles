@@ -42,8 +42,8 @@ export default function Home({ posts }) {
 
         <section className='home__page__highlight'>
           <SocialNetworks />
-          <LastPodcast episode='5hPNPqKhmjOaZHwgBmKVAD' />
-          <LastVideo videoID='uuEKEIM4jXo' />
+          <LastPodcast episode='522JZ9jCl02YnEmdFHp892' />
+          <LastVideo videoID='tFfzImqds1Y' />
         </section>
       </div>
     </MainLayout>
